@@ -1,0 +1,14 @@
+##############################################################################
+#                                                                            #
+#                          UAV Control Scheme                                #
+#                                                                            #
+##############################################################################
+
+Basis
+=====
+
+This control scheme will use micro-controllers for low level motor control, stability and similar functionality. A Raspberry Pi or similar linux based micro-computer will be used to determine overall control of direction and communicating to the operator. A dual lane control system will be introduced. This will allow any software failures in a micro-controller or micro-computer to not be catastrophic. I do not see the micro-controllers being prone to software failure which is not due to programmer error. As a result, the focus will be on the micro-computer. Some element of health checking will also need to be introduced. This could simply be reading a signal which is present when the micro-controller is powered or running an operating function. 
+ 
+
+
+
